@@ -1,0 +1,65 @@
+body {
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+.topPart{
+    background-image: url("soup.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 450px;
+    position: relative;
+}
+.topPart h1{
+    font-size: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.centerPart p{
+    text-align: left;
+    font-size: 32px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0 90px;
+    color: darkgray;
+}
+.centerPart img{
+    width: 400px;
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.hrStyle{
+    width: 80%;
+}
+.endPart{
+    text-align: left;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0 90px;
+    color: black;
+}
+.endPart ul{
+    list-style-type: none;
+}
+.endPart ul li:before{
+    content: '-';
+    position: absolute;
+    margin-left: -20px;
+}
+.endPart img{
+    width: 400px;
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+li{
+    font-family:Arial, Helvetica, sans-serif
+}

@@ -1,0 +1,378 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style1.css"/>
+    <title></title>
+  </head>
+  <body>
+    <div class="container">
+        <!--Use a grid into rows and columns-->
+        <div class="row">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">Navbar</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Dropdown
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link disabled">Disabled</a>
+                      </li>
+                    </ul>
+                    <form class="d-flex">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                  </div>
+                </div>
+              </nav>
+            
+              <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <br>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img height="450px" src="https://www.ikea.com/images/shahd-aljwlat-almnzlyh-34b895b5a5e630a790197fe3d9ec0e95.jpg?f=s" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img height="450px" src="https://www.ikea.com/images/astwdyw-mshrq-bh-swfa-sryr-3-mqaad-ma-arykh-astrkhaa-wtshkyl-c4d0cf552d9b653152bc174773ee3218.jpg?f=xxxl" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img height="450px" src="https://www.ikea.com/images/landskrona-light-green-sofa-sjoepenna-pendant-lamps-and-blac-5eaf0eaa51a737704d262485a2ea1e4d.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>
+        <br>
+        <div class="px-4 py-5 my-5 text-center">
+            <h1 class="display-5 fw-bold"id="mainheading">IKEA Catalogue</h1>
+        
+        <br>
+        <div class="row card-group">
+            <div class="col-sm">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front">
+                        <!--Customise multiple image/thumbnail shapes "i use img-thumbnail" class and i konw there are many things as "img.rounded" and "img-circle"-->
+                        <!--thumbnail = give an image a rounded 1px border appearance.-->
+                        <!--"Responsive" images will automatically adjust to fit the size of the screen and i use class from bootstrap in this website also i can use @media.-->
+                        <img class="img-thumbnail" src="https://www.ikea.com/images/swfa-3-mqaad-sjadh-msthh-krsy-rwtan-bthraayn-ma-wsadh-khzanh-0ac620bb7c754ffa215575fc686e4142.jpg?f=xxxl" alt="Avatar" style="width:300px;height:250px;">
+                      </div>
+                      <div class="flip-card-back">
+                        <h1>Bed Room</h1>
+                        <p>In IKEA we have a diffrent type and style of room and you can found any style you want it and the is a ...</p>
+                        <br>
+                        <button type="button" class="btn btn-warning">See More..</button>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-sm">
+                <div class="col-sm">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                          <div class="flip-card-front">
+                            <img class="img-thumbnail" src="https://www.ikea.com/ext/ingkadam/m/1bd1eeb8199ba097/original/662042_mets03a_01_PH174289.jpg?f=s" alt="Avatar" style="width:300px;height:250px;">
+                          </div>
+                          <div class="flip-card-back">
+                            <h1>Kitchen</h1>
+                            <p>In IKEA we have a diffrent type and style of Kitchen and you can found any style you want it and the is a ...</p>
+                            <br>
+                            <button type="button" class="btn btn-warning">See More..</button>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-sm">
+                <div class="col-sm">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                          <div class="flip-card-front">
+                            <img class="img-thumbnail" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaQjsVQ_EHZGfZ2xnlIx-IsHdh7GZz-HPG6XJnGqzhvJtt-TQfl5j2eHZfSPm-oSPeRdI&usqp=CAU" alt="Avatar" style="width:300px;height:250px;">
+                          </div>
+                          <div class="flip-card-back">
+                            <h1>Living Room</h1>
+                            <p>In IKEA we have a diffrent type and style of living room and you can found any style you want it and the is a ...</p>
+                            <br>
+                            <button type="button" class="btn btn-warning">See More..</button>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-sm">
+                <div class="col-sm">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                          <div class="flip-card-front">
+                            <img class="img-thumbnail" src="https://www.ikea.com/images/hmam-abydh-jmyl-bh-whdtyn-hwdh-ghsl-wmraatan-ma-idhaah-mdmjh-202bfb7d4acb31a5c3a76909fad49c34.jpg?f=xxxl" alt="Avatar" style="width:300px;height:250px;">
+                          </div>
+                          <div class="flip-card-back">
+                            <h1>Bath Room</h1>
+                            <p>In IKEA we have a diffrent type and style of bath room and you can found any style you want it and the is a ...</p>
+                            <br>
+                            <button type="button" class="btn btn-warning">See More..</button>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-sm">
+                <div class="col-sm">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                          <div class="flip-card-front">
+                            <img class="img-thumbnail" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaiGDuYyJgcidgGpEIkeFQdpZiJUi6UFeIeyOPCLzQ1--DIIZW1FXCOifSJFeWmjDT9gs&usqp=CAU" alt="Avatar" style="width:300px;height:250px;">
+                          </div>
+                          <div class="flip-card-back">
+                            <h1>Desk</h1>
+                            <p>In IKEA we have a diffrent type and style of desk and you can found any style you want it and the is a ...</p>
+                            <br>
+                            <button type="button" class="btn btn-warning">See More..</button>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-sm">
+                <div class="col-sm">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                          <div class="flip-card-front">
+                            <img class="img-thumbnail" src="data:image/jpeg;base64,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" alt="Avatar" style="width:300px;height:250px;">
+                          </div>
+                          <div class="flip-card-back">
+                            <h1>Bed</h1>
+                            <p>In IKEA we have a diffrent type and style of bed and you can found any style you want it and the is a ...</p>
+                            <br>
+                            <button type="button" class="btn btn-warning">See More..</button>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-sm">
+                <div class="col-sm">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                          <div class="flip-card-front">
+                            <img class="img-thumbnail" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBUVFRgSFRUYGRgaGhoYGBgYGBkYGBgaGRgZGRgYGRgeIS4lHB4rIxgcJjgmKy8xNTU1HCQ7QDs0Py40NTEBDAwMEA8QGhISHzQhJCE0NDQ0MTQ0NDY0NDQ0NDQ0NDQ0NDQ0NDExNDQ0NDQ0NDE0NDQ0NDQ0NDQ0NDQ0NDQxNP/AABEIAOEA4QMBIgACEQEDEQH/xAAcAAABBQEBAQAAAAAAAAAAAAAFAAIDBAYBBwj/xABCEAACAQIDBAYHBAkEAwEBAAABAgADEQQSIQUxQVEGImFxgZETMqGxwdHwQlJicgcUIzOCksLh8VNzorIWQ9IkFf/EABgBAQEBAQEAAAAAAAAAAAAAAAABAgME/8QAHhEBAQEBAAMBAQEBAAAAAAAAAAERAhIhMQNRQYH/2gAMAwEAAhEDEQA/APXDInMkaQ1TpI0oYl+q/d7yB8ZFga2XQnQ289wixZ6vew9gN/eJW5d494PwhBnNOh5T9LHpUlRdVpl8BsKoufFVFVsQxZkQkFFdj1WdtdATwvYDS5tNEjSZTM3mX6lmsrU6NnD4aq9JfTYpx1qjKGbrMPSFEO42JPMnnoJgcScxLMtmuc+lteJK7wec9tWUdsLhlQ1sSlMoguxqIrW5AXBJJOgA1JM59fn8s9Yl5eb9GthticUjsP2FII78ncDqq3MFhcrusDfeIe6b7Btkq0KQCjqOlNbak3VsqjW9yL/lmC2l0pqA1aeCL0MO7lwimz6qAbMNUU2vlU6brwVsmviVqithy/pAb5gTYnfZzfrKeIJ1ExLMxPWNs+wlw6CvjnNNCepRSzVqh32A3Dhv3cbTG7f2p6WqXRRSRRlpomhCjcXfe7neST2cJoemmJqYjEPWyt6MKioNequUF9OHWLXPd2TGYsWBMm5ciyQ3EbarucytlIFlFNQBcbjYDU3mt6SdE3w+MGGpjMuIR6lIbiHRWZ6d+JABseIZRqd+U6N1KKYmjUrkikjh3sLk5OsqgcbsFHcTNn0w6fU8Q1CrhEqK+HdnFVwgHWABQKCb3sLk8rWN9O0kxYw4UHdHpT1lyomZ73uW6zWUKATdmCgEgjlu7hLLUfRrma410Oo61r2Hy32nH38Yv8Dnw2mu+RYHZT4iqKNAZ3Y2ALKouNT1mIGg8dOMvbe2dXp0qVUhQldA9NgwuQy5iCu8EAi51Go11kWyWy00KmxGoKmxDBt4I1BvxltvM2rJYsvsfJT0N2udRqr2v6ulyfLQXtxgulRLHKP7Acz2Q1SrEgU1vm9UDep8N458jvtLz4AJ1LW4kWtc77twNu2S9T7Cs6MOFBdtFUXPw8yfbKFLGMGzC4ueG6W9p4tHbInqA7/vtuzd3Af30a2CdLFxkuLhXBDkcwh1t2mwPOak9e15gzgMWGHWZR3kD3zS4PZWdC7IXS3qU3Cu432BBAsdxBZb+w1uinR6jUoP+sU+vUsUDKVZUUXD03I3nMT1b6AX5TPbe6OVMG+dWYoTZaqXVlvuV7eqe3cezcJPxks6rWtvs3b2EP7FGFIr1fROhpFT90Ai1+wGFXnkeIxb1APSHOwAAdtXsOBbew/Nc9o1uU2TturQyi5KEXCObqRu6h+zqCNNLg3F528016JFM5/5ZT+4/mvzijzg9jaQVzpJi8q4ipNNB+MPqjsJ8zb+mU8S+UA9stYk3fuAHsF/beDtpvYAQEuKMuYevAyPLuGaVB6i8tIYPoNLtMwLKwTtjozhsV++DkjUWq1AoPMJmyX135YUQxmJxQpqXb1FBZmuOqBqSQbad1z2TNz/AEx5N0v6L4fCMipVd2brFGCkqmozFlta5FgLa2OolbAAheqeryGlieY4QhtzHUsTiKlai+dCVUGxBGVFFspFwL33jjAwqNSfOviOY4gzy311bHHrd9tNhRmFiL3/AMTEdJ9nrSqmmbhW662sNLm48x5ETdYQKwR0PUYXHYftL3iZf9JgBbDBd+WqD50rfGdc8pF5jM06FK4OW9iDYk2PYbEaGGquMwr6VcPRolhYVKLVKKrbUM9JQ6trbcgPbBeBohVzHXt4eHzgfFVAah1JGYDU30G/w3yc9XbI1zujez9mPVp1atKog9DqysxRih9VqZYWYXBFrhvV060rNj3KehLkoGLhW1AbLYsL7rjfEGBHu4yti6GZbKbHj2jl9conUt9+ll96OUWONoLUxFY0MPhKVPD02Sk9T0jgC6rqBmIAJuRpl4QVgqiqGQE2DEqWAVip3XUE2PEgE7953ymahCpSzMQCciFtAzHrEAmy34n5TQ9Jtm4Whh6C0y713671A6PStY3UKjNYgkAXtoDv3DXU8ov1STFZWDLmDKQQbDQjdpLO1Nso46wchr5kU5b9jP8Ad42HLU8IPZ8iKhAZzYm5NkHAdrEb+XvrmsdzJa/EHSc+ecTKsptB10oqlIbgyLdyOHXe7e0Q/g+heLqoazEK7WISqWzvzLGxynkDrztMpgnZDmRiroQykGxBB3g8CNDPVOh/Sj9ZX0VWwrKL3AsKij7QHBhxHiOIHSSblVijUxuCYKWqU+ADHNTa3K90Og4azTbJ6UJiB6DEoqswy6603vplsfVJ5G4PPhNfiEVgVZQynQqwBBHaDoZkdr9DqT3aich+4dUPZzXwuOyb8bPhmAHSPo0cOTUpAtS4jUtT7+adu8cecn6PbNTEYZ6b8KhKPxRiiZrdm647eesNbCxdZD+q4kEMAfRudQ6jeubcxA15237tSlKgiLkRQq3JCqLAXNzp3xOZfYxX/iFf79Pzb/5nZtbxS+EGxGKB4zjNeCsGpOsJpoR3j2StKztdmPMn3yjjahzgDlLyCDautXusPjAdtMAZDx1HujMKY/ax9Tx+EiwhliDeHMu05Qw5l+nAsJPK+lO1q20MUuBoH9mKmRRwZlvnqtzVbEgclvvM9TQzyjAYL9TetlcMxJpo678ga563AtYXt93Q2Jvx/W5IluNTtOhgsNh1w600qVKalVNwrBj6zNVAOUk6lQDwFrCYo1KbCztkbzU+PCE8Js2viDamhYbi3qove508Bc9k0mA6FYeiprYt0YIMzAnLSUDUlmbVgP4RzE5Ze7sjO9dMvs7Ffq2enVNkbrLpezDkO0eRAgHb20lxFVaihlyKUXrEGzXDk5d2YNYi5Fud5oekFentKstHZ+Hcsmj1bLSo5DxYWvbTQnKdDYNpBm1ug2Lw4ztkemNWemWbKB6xZSAQBrru01Ijx7kyfFnLOYur9kcNO6CnoAfZHlCm2sRRzKmHR1yoA71D1qjkklwg0VdbAXOgG43uKzOePsHyl5l5JMXNjYB8RVWhRQ+kfNlANlOVS5uSbDRTv0nHuCUYWYEqRxBBII7wRa0LdCNr/qWI9MaPpCy+jHWKsudluUFiCxsBY87X1g/phjKdTFVK9DMqVCHyOoUgsAXuASD1s2t+M34zqGSqlSnrmW2YcRyk6Y5wLGwvoDr7hrO4rDBWVUcOGp03JFrBnRXdLgnVSxB7ucrHUm/Dqj6+t0mZ9/xZ6XDhUdeo13430ZuZt8pSXMND9fOPSj9om3K2lvGS1jm13nj29vf7/fmX/qarFrOrc9/uPvlnD1noVVqIbMjBl5dx7DqD2EyEKD9brwlt6laotQJkFRVdV1sA4DWF+AJYDumv4r1ihiVqIlRfVdVcdzAEe+R1DK3RxCMLRv8A6YPgbkewiXHWd58VVcc/rlIXlh5XaVDIorRQNZhaNhJXFge4+63xjwCNwjHBIIKnXlrxB+EzraqIPo61Ce33C0IOVG8kfXbaVMLTsS195O8WN9/iO2NRX2wfU/i+EiwZj9tH1P4v6ZDgzKg7hzCFODcOYQpyjm0EqMhSlYM2mYmwVTvPO/DTnKGz+i1FOtU/aN+IWQdycfG8MoZIszeZbtMSU1AAAAAGgAFgOwCeU/pO6QLVdcJTYlEJNXL6rVAdFv8AaC69lzzXT1HE0s6MgZkzKVzJYMtxbMpIIBE8u230Ro4Z0AqO5ILZWRQABoLnML8fKZ/S2ROmHpYOrUTIAchN7MTkJ55eJ0324SRdiFLjPlJ0YKuW44gm4uO/SaOsAL2tpxsLDfxBIO6DsXVCIajfwg/bPD64e/y3rrcjnaBY+mEARnzneDY3XsvxHYfCO2bs2vWR6lKhUqImjZELWNgbEDfoQbQfVBdi7G7E3vw7AO6ENhdIMRgqvpKDWzWDqwDI4F7Bxv0JOoIOp1nfnMyt5s9pujnSipg6/pRTR/ssjr1gL9YI9syNz4cxB/SFKOdXoNemylkU6OgzG9OovBl3X1DCxB103G1cHW2uv6/ToUxa1FqaVM9RWW7F2uijXMulybW7bYbaOx69Ko1B6bq4AIBFtGGh5TXqLPQjtTYlXCJRqVMuWpTDoyEkXyjqsSBZgGU2139hggMQB9a8Zuem21qdWhgqKHOlNAKq9ZLuqoMtyOStqOcxdOkTe5W5NxbNoNdNe/jroO2+erP8W2Yah5yQE8I30JH9pIji1rTNTTHX26Hvno2N2A+Op4KqzAH0aemb7RUoGGX8RJPdmvwtPO2HG09o2GqjDUVR1cLTRcyMGUlVANiNN95vib6omyBQFAsAAABuAAsAJC5llxKzidlVnldzLLiQOsIhvFHWigbMVfwP40n/APnWcFcH7DjvpuvvAhW8obWxZSmzjfoB3k2HxmcbQs4YaEEcRIQ67sig8rDxt9coBqYot6z1Ceedh4gDQeUWE2iayF9BURmRrb7qfcVsbfitrJZgL1RSe2dAbXtvt26A9kS06HBLdxYfGUsRiQyComn3tdd/HSUf17hr9dto0HA6LuPnCNGmxAIFwdQRYgzIvi/n9CWsHjNbXNju6xGu86AyzpMaxUbkY8TPDEDl5kn4yRaw+6PK8o0AMwXS9b4hwdeqlteGUc+281mExHVt26SjtvZxrlXQgMOqb7su8HdvBv5zPXOxnr4wWA2U9ep6NBfmeA3ak8v7Qv036FKMOKtI9aijs+Y2Dr6zML6BhbdxHMgX22yNnJh0yJqTqzn1mPM8u6RdJqPpMJiKebLek5vwGVS2tuGkzPzkic84+eHW0jrWAzWDC/HePESRyx1PlElNjflx435Ccpc901tv0YUKlcYmlSxD0FK03JQBrnrqB1tV371IPVGukodJ3TA4hsPULVWyq+cCxJcE2bM5N9N9zK/RfbeIwOc0QlnKlw65swS9hmBBFszceMr/AKR8T6XHGplK5koEqd656CPlPaM86Sc9TP4TOknRnE4apWqYjGhDTpJmSje5d30RFXTNoGJ4XAJsIGcqWYopVcxKqWzFVucqlvtECwvxm26CdEExeGFSqWWmK1QhUIBqdWmgBaxKqpR9xuS53WuY+knQSph71KN6tIanT9og/GB6w/EPEDfHXOT1PTVjJ0nuY2ppHotjEyXnL0zJ7bPoHsClWVcW5YtTqMuQ2yFlCMj89M27mB3T0BxAfQXBGlg0vvcmqe57ZP8Aiqnxhxp6eZkjSBxIHEsNIGmhWdZXdZaaQNAr5ZyPihG/gfpIf2X8af1QuYF6TH9kP9xPc8jbK1GlLo3VtiMTT5hHHtVv6ZZrHfBewHtj2F9DSN+2zpJUaHAHr1aRvuB7t/hwg+s9mPztLBYpiweDrbdyPs9cSHaaWc9vbMqhd5Jhq5BU33MOJ3HQ++Vz3X7okFwdOH1ygaNXkqtKdB7qDzAPmJOjTYkqYsoQOy8uYXG3gTHv1h3fEx+Dq6wy1lOtH1AHVkb1WBU9zCx98F4erIdp7cSgN2d7XCA28WPAecnVnM2luPI9o7LahVei46yMVvzG9W7iLHxjadAWFxpqT7gPYfOHukO0mxLio6IrKLAqCDlvezEnra7j2nnB1XEBAQlr8GO4eB3958p4bZbkvpxuG0/RUqlB8QregeqFY2sCqlc5JOhUZlzWN7XkH6RagG0MSxGmanbiNMPSGnlINp7ZxFdFoV6mampBVfR0UC2BAylEUgWJFr2iH7T1ruwAGZjmNlUKNT2KB4T0c+PMyOnNnMb+jWxWzMBRKUEqIF9JV1YNSaoxqHONcygtYsLWtqANYNo/pQe4z4ZCOOWoykDmLqb92kF9F9j1aldMjMtiGdwSAqA63531Fjv7rwr0t6CFCa+ES6HVqK6leZpjiv4N44aaDU666m8m6lq7Owu01ethD6Osur03GUEm9iQLgXsestwdbi8xWPwNSi5p1EKMOBHDmDuI7RpPRugXRt8MHrVhleoAoS9yqA3Oa2mYm2nADtIGj2ls6lXT0dVFdeF94/Kw1U9xi/n5TflUP6MKRhKF9/o1PgdV9hEINJSoGg0A0A5SNp1kyKgaROJO0hcSis4ldxLLiQOIEFoo+0UI3UC9Jv3Q/wBxPc8NQL0m/dD/AHE9zyNsdX4wXsMXx7f7Tf8AZIUxB3wZ0fAOOfXXJYeO/wB0lBrbC5alJ726xBPYfoGTbZp6BxflrJOkVEmkX10s19eHWMlxCh6AO/qg8TqJkALnt8I+iRfXu89PnG2N93DuvOIew+Y8JAVwLdQDlceR09lpbUyhhDYsO0EeQHwlsNNwVNpP1l7vjOYZ9ZDtR+uvd8Zyg8sZHExGVSfLv4QBigtyxvnJvzN94NxcE+0cLQoGBXXdvvysCbnsgRw1VytME82trr7h9aTl+n8Y6Cq9MX5nktr+J3D60vujwuEqVHyUkBbkoBNuZdvVHboJrMD0bBsajWH3E3+L/LzmnwWHSkuSmgReQG/tJ3k9pnLn8LbtZnLP7L6FpbNij6RrWCKWCrfjn9Zm8h2HQzzzaVdcNia1FEuFqMiEtwD5RfTU2ntgaeF9IOtjKh54l+3/ANrDfO945yTHWcx7lgsElFfR01CrfxY82PEycmcdtTGkzcmeoExjDOkxplDWkLSVpE0CJpE8laQtAgeQPJ3kLwI7Tk7adgbeBekv7r+NP6oZMD9JR+x/jT3tI0xeIgvYRIxpa/HL39Rz8IWqJeDsOno661LaBsxsNdxXTwYzI2O00zIVNtxvxsLd/dMsm2XWmKIQEgWLHUW5gf3hDGdKQQVWi/EdbKBbdzMBCzEn2XkVZSsSAbG/f7Y1sQQbAEyIU3tZW8P8x4pORqw9nEkD3yIv4CuWb1SAF1J3b9OMI5oP2dQyDMXLE8woA7BYS4TNyIHbTfrr3fGNotG7Tbrr3fGMpNNRBejY6MLg7wdfYZqzsJl0plLcmzD/AK6eyY2g89KwNTMiNzVT5gGSwCaey6w3in4FviJYXAuPsjzEMThgCf1V/uj2TyzaPQrGvWLrQ0NYvfPS1BqZr2z33H3T2VpDUksalwPemfq0gq1LcvbLlYwXizIjj7Tpr6xPgDIP/wC1SYhUVySQBcKBqbc7+yBMe05sxL1EHbfyF/hLo1TSJo5jI2M0hjGQuY9zIXMBjSJo9jIWaAoo285A3JgbpMf2P8af1QxA3Sf9yfzp72kaZBjrIHXWTNGkQiE0geEYcCp3gS0BHoIFRtmi3VYr7R5Ro2c3Gq3goHvvCJjCZMhpU1ygAE6c98fmkeacLSgdtRuuvd8Yym0btNuuvcffGI0qCdB56L0eqZqCHst/KSPhPNKLze9EKt6Nr+q7Dzs3xko0c4YhOEwGtIaklY98r1D2HyhVWtBWMMJVyeR8jBGNzcvaB8ZkAseZZ2Ot6t+Sk/D4yjjAb6+8QlsFdXJ4BR53+Us+gyxkTGPYyBzNIa7SBmj3MhcwGu0iZp12kLNAdmikeacgb8wP0mH7E/mp/wDa3xhi8EdJf3DfmT/uJhpjjOWnTFNIQkgjBHCB0mRMY5zInaA7NGs8YWkbPAobRbrr3H3ziGOxChmF2A7yB75IlAfeX+ZfnCVJSabboPW6tRORVv5gR/TMemH7R5iaboaCtV1t6yX0/CR8zA3A8Ij9azit9WnSe6Axx2e3+8gcdn/L+8nbwkD9w9kKpV1HL/l/eB8ao7P5mhjEHsECY9/y/XhMjP4oDNvHgSYZ2GtkY829wHzgTEP1t/lNFspLUl7bnzJjn6VOxkTmSushdZtEDmQOZO4ldxIIWaRM0ewkLShZooyKB6NaCukQ/YP/AAH/AJrCsF9IP3D/AJR/3WYaYomdEjJjgZpDgZ0GMvOFoHXaQM0TvaVXr7z5ncB3mBMzytUrjcNYDx/SGmuik1D+HRP5uPhBD7TrVDvyj7qAAeJOp84Ggr1bv3CSo0BUncfa9gk64mrwKeKH4NCDyPND0RxAXEpf7QZfNSR7QJhUxdb8H8rD+qF+jm1HTFUCwTKaiKSM1wGOUnjzhXt6ntjjGrHEdkBjDsHkJXqL2D2SwwHb5yvUA7YFHED8K+Q+cC4/wH8K/OGsQo7fOBcdTHI/zTIz1c6n4aTT4UlUReSj3azN1l3/AOZfXpFhjoHfxo1h/RLAXeqZC1Y9kHNt3D/6lu9HHvWQvtvD/wCsni1vfKCD1zyErviOwe2UW2zhz/76X86fORnaNE7qtM9zofjAttiPwiQtXH3fbK5xSHc6nuYGRs45wLPpx932/wBopTzTsD0+8F9IP3FT8v8AWsJ3gnpC/wD+eoewD/msyrEExXkT1JSxu0UpDM7hBwB1Y/lUamaQQaoBK2Kxioud2VF+8xsPDmZl8Z0pJuKKW/G+p7wg08z4QHUz1WzuzOebcO4bgO6EH8f0pTdSQufvvdV8F3nxtAletWrnruSPu7kHco0klHCgdsvJSgUqGCA36y6lO24Wky0+ySpRJhUNNJYp05IlDnJkodsCzsTZwxFdKBbLmJuwF7BUZjbtOW3jPScB0Sw1IhhTuwIIZyWNwbg23A9wnnmzqrUKiVEAzoSQSLjUFSCO0GbFv0kYeiE/WKVRMxy5kAdAbX1Fww8AYG8W0flmXwPTzZ1U5UxChgLlXR0IHbmUQpS27hX9TE0T3VU+cIJFe+QunfIhjUO6oh7nU/GcbEj7w84VDXp9pgnF0PowlWxij7SeLD5wVjNsU03vSW5sLsoueAFzqZMAavS1AALXO5QSPG26J9lGxa2QDW7HQd943E9I8zNTSsuZbZlTKSt919NIGxNd3N3dm72J9nCMDKkqVZI78JAZRGUHL2SJ6S/dHlLBUzgomBRfDJ9xfIRn6gh+wv8AKISXD34TlSnaFwO/UU+4vkJyXLRQPQE6fbMbdi1H5kqL53TSCOk/TTAtQKU8QrkutwiuSV6x005hZjT0LPD4fONPQ5/oSbDKH4/pM7XWiuQffaxfwG5fG/hAgps5zMSxO9mJJPiZrk6JFd5P8pllOj6L6x9kamMrRwvZeXqWDaaJMAg3WkyYUdnl9CUwCTB23yymE5CG0wy8pLkA3QoSmDtv90mFDhL5AiCQKS4YScUAN2nf3j5S1kPLwky0L74A/wBDy1lXaGzQ4AYXsQwHIjcRNAiDcBHPhb7pNGOGybOzgC5FieOm6J8I43LNccERwvKz4cj7MaYy3onH2T5SltlWFF+rppmsNcuYZte6bhKP4ZM+FFrFQb7x2dsaY8f2cjU6tJ7WuwIPNTYN7CZott4gsaZW/VbMLcxaxmxfC0wRammnHKvs0nKiLwUCNMZTYRf0lRyG69idDqRxmgRXbcDLmHS50EtokpgauDeSjBmFAkQWDA39U7Jz0Q42hCoLeEHYgGA/IOBlbELHhOJnFW/WPhMir6CKW7xTQNE23m/hc8RY27t87mvr9cfLcfOMJHae7dqGse7tnc3DXnvJ531GviJwdEmYcvLlrfsG6Lz38L7h/g+cbckHTgbDhxHnv8/CPy79eOh4a3tvG/WAuzf5e8/Wk4VB3Ac7WG6/d9axINbDjbTjb3bmlhaI3ndy4cd/thFdKV/sr4AW3c/rWOrUKSLmcoAL3Y2Ue2B9t9JlQ+ioj0tXdZdVXtNu3/MGYbZVWswqYp83EIDZB385qSs2rT7Q9K4XD0hkB61RrjN2IPjaEqdOwjkQKLBd24bhJFJ5TpIy4EnbXnb8tTJqdPifKURovgJdpKJFa0lQwqbLI3pXkqrOkQKjUBOGkOUssIxoFB6I3/RtrK70YQca2H+L6ecgdYEKraTIsYqmS04Hcs4xtJWFhKtRzz7oEFatwtK17nQaSw6RBABeEVmUnSdZNJIibyZ0cfrugVvRn6/zFLGSKFX6Xx+UlTcfr70UU87qd8zI19b+A+5YooFnC/b7/i0q7a/c1PyH3CKKWM1iOh/rP+b4CbBfr2xRTs5u8frsiHqj64xRSjuE9fwPvk/HwiigdEmp7z3xRQLKRRRQOPw7/hI+fhFFCo+HnK7xRQGcvCS0t8UUBVPlK7bvE/CKKBH8z8ZytuHf8IooRxfVHhGDd9coooDIoooV/9k=" alt="Avatar" style="width:300px;height:250px;">
+                          </div>
+                          <div class="flip-card-back">
+                            <h1>Plant</h1>
+                            <p>In IKEA we have a diffrent type and style of plant and you can found any style you want it and the is a ...</p>
+                            <br>
+                            <button type="button" class="btn btn-warning">See More..</button>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-sm">
+                <div class="col-sm">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                          <div class="flip-card-front">
+                            <img class="img-thumbnail" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0XTqUt0ZZAQ9nmCcEjFoAZ31U6bvXyCllTg&usqp=CAU" alt="Avatar" style="width:300px;height:250px;">
+                          </div>
+                          <div class="flip-card-back">
+                            <h1>Vase</h1>
+                            <p>In IKEA we have a diffrent type and style of vase and you can found any style you want it and the is a ...</p>
+                            <br>
+                            <button type="button" class="btn btn-warning">See More..</button>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-sm">
+                <div class="col-sm">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                          <div class="flip-card-front">
+                            <img class="img-thumbnail" src="https://www.ikea.com/images/ikea-365-dinnerware-series-79d4223a4a2ef58c7ecb4117f32a6fcb.jpg?f=s" alt="Avatar" style="width:300px;height:250px;">
+                          </div>
+                          <div class="flip-card-back">
+                            <h1>Dishes</h1>
+                            <p>In IKEA we have a diffrent type and style of living room and you can found any style you want it and the is a ...</p>
+                            <br>
+                            <button type="button" class="btn btn-warning">See More..</button>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-sm">
+                <div class="col-sm">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                          <div class="flip-card-front">
+                            <img class="img-thumbnail" src="https://my-test-11.slatic.net/p/60a46d029b794d3bfe2c7bda4a221e37.jpg_720x720q80.jpg_.webp" alt="Avatar" style="width:300px;height:250px;">
+                          </div>
+                          <div class="flip-card-back">
+                            <h1>Floor Lamp</h1>
+                            <p>In IKEA we have a diffrent type and style of floor lamp and you can found any style you want it and the is a ...</p>
+                            <br>
+                            <button type="button" class="btn btn-warning">See More..</button>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-sm">
+                <div class="col-sm">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                          <div class="flip-card-front">
+                            <img class="img-thumbnail" src="https://www.ikea.com/ext/ingkadam/m/3eec4269f3587065/original/PH180834-crop001.jpg?f=s" alt="Avatar" style="width:300px;height:250px;">
+                          </div>
+                          <div class="flip-card-back">
+                            <h1>Carpet</h1>
+                            <p>In IKEA we have a diffrent type and style of carpet and you can found any style you want it and the is a ...</p>
+                            <br>
+                            <button type="button" class="btn btn-warning">See More..</button>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-sm">
+                <div class="col-sm">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                          <div class="flip-card-front">
+                            <img class="img-thumbnail" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNmk0cjJMbbfLPgOYodAUAofBE37oEy8BMjE3ut36QNnduu-m8gsN-Zx1crZkoad6jM5Y&usqp=CAU" alt="Avatar" style="width:300px;height:250px;">
+                          </div>
+                          <div class="flip-card-back">
+                            <h1>Box</h1>
+                            <p>In IKEA we have a diffrent type and style of Box and you can found any style you want it and the is a ...</p>
+                            <br>
+                            <button type="button" class="btn btn-warning">See More..</button>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+              </div>
+        </div>
+    </div>
+        <hr>
+        <br>
+        <!--Create a table for your web page and format it as a hover table.-->
+        <div class="row">
+            <div class="px-4 py-5 my-5 text-center" style="border: 1px rgba(227, 79, 138, 0.434) solid;">
+                <h4 class="display-5 fw-bold"id="mainheading">Users Table</h4>
+            <table class="table table-hover">
+                <thead>
+                  <tr>
+                    <th>Firstname</th>
+                    <th>Lastname</th>
+                    <th>Email</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td>john@example.com</td>
+                  </tr>
+                  <tr>
+                    <td>Mary</td>
+                    <td>Moe</td>
+                    <td>mary@example.com</td>
+                  </tr>
+                  <tr>
+                    <td>July</td>
+                    <td>Dooley</td>
+                    <td>july@example.com</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+        </div>
+        <hr>
+        <br>
+        <!--Migrate your form to a horizontal form.-->
+        <div class="row">
+            <div class="px-4 py-5 my-5 text-center" style="border: 1px rgba(49, 192, 49, 0.434) solid;">
+                <h4 class="display-5 fw-bold"id="mainheading">Horizontal Form</h4>
+                <form >
+                    <div class="row mb-3">
+                      <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+                      <div class="col-sm-10">
+                        <input type="email" class="form-control" id="inputEmail3">
+                      </div>
+                    </div>
+                    <div class="row mb-3">
+                      <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
+                      <div class="col-sm-10">
+                        <input type="password" class="form-control" id="inputPassword3">
+                      </div>
+                    </div>
+                    <!--Customise any implemented buttons-->
+                    <button id="singUp" type="submit" class="btn btn-success">Sign in</button>
+                  </form>
+            </div>
+        </div>
+        <div class="row">
+            <footer class="py-3 my-4">
+                <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                  <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
+                  <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Features</a></li>
+                  <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Pricing</a></li>
+                  <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
+                  <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
+                </ul>
+                <p class="text-center text-muted">© 2021 Company, Inc</p>
+              </footer>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
